@@ -2,10 +2,7 @@ dockstore-cgpNgsQC
 ======
 `dockstore-cgpNgsQC` provides cgpNgsQC in a docker image.  This has been packaged specifically for use with the [Dockstore.org](https://dockstore.org/) framework.
 
-[![Docker Repository on Quay](https://quay.io/repository/wtsicgp/dockstore-cgpmap/status "Docker Repository on Quay")](https://quay.io/repository/wtsicgp/dockstore-cgpmap)
-
-[![Build Status](https://travis-ci.org/cancerit/dockstore-cgpmap.svg?branch=master)](https://travis-ci.org/cancerit/dockstore-cgpmap) : master  
-[![Build Status](https://travis-ci.org/cancerit/dockstore-cgpmap.svg?branch=develop)](https://travis-ci.org/cancerit/dockstore-cgpmap) : develop
+[![Docker Repository on Quay](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc/status "Docker Repository on Quay")](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc)
 
 Release process
 ===============
@@ -16,8 +13,8 @@ This project is not yet maintained using HubFlow.
 3. Push changes
 4. Check state on Travis
 5. Generate the release (add notes to GitHub)
-6. Confirm that image has been built on [quay.io](https://quay.io/repository/wtsicgp/dockstore-cgpmap?tab=builds)
-7. Update the [dockstore](https://dockstore.org/containers/quay.io/wtsicgp/dockstore-cgpmap) entry, see [their docs](https://dockstore.org/docs/getting-started-with-dockstore).
+6. Confirm that image has been built on [quay.io](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc?tab=builds)
+7. Update the [dockstore -  ](https://dockstore.org/containers/quay.io/wtsicgp/dockstore-cgp-ngs-qc) entry, see [their docs - - ](https://dockstore.org/docs/getting-started-with-dockstore).
 
 LICENCE
 =======
