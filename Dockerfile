@@ -1,6 +1,6 @@
 FROM  ubuntu:16.04
 
-MAINTAINER  thelastsheep@hotmail.com
+MAINTAINER  Yaobo Xu <thelastsheep@hotmail.com>
 
 LABEL uk.ac.sanger.cgp="Cancer Genome Project, Wellcome Trust Sanger Institute" \
       version="0.0.1" \

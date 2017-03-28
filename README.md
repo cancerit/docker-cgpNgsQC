@@ -1,20 +1,19 @@
-dockstore-cgpNgsQC
+docker-cgpNgsQC
 ======
-`dockstore-cgpNgsQC` provides cgpNgsQC in a docker image.  This has been packaged specifically for use with the [Dockstore.org](https://dockstore.org/) framework.
+`docker-cgpNgsQC` provides cgpNgsQC in a docker image.
 
-[![Docker Repository on Quay](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc/status "Docker Repository on Quay")](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc)
+[![Docker Repository on Quay](https://quay.io/repository/wtsicgp/docker-cgp-ngs-qc/status "Docker Repository on Quay")](https://quay.io/repository/wtsicgp/docker-cgp-ngs-qc)
 
 Release process
 ===============
 This project is not yet maintained using HubFlow.
 
 1. Make appropriate changes
-2. Bump version in `Dockerfile` and `Dockstore.cwl`
+2. Bump version in `Dockerfile`
 3. Push changes
 4. Check state on Travis
 5. Generate the release (add notes to GitHub)
-6. Confirm that image has been built on [quay.io](https://quay.io/repository/wtsicgp/dockstore-cgp-ngs-qc?tab=builds)
-7. Update the [dockstore -  ](https://dockstore.org/containers/quay.io/wtsicgp/dockstore-cgp-ngs-qc) entry, see [their docs - - ](https://dockstore.org/docs/getting-started-with-dockstore).
+6. Confirm that image has been built on [quay.io](https://quay.io/repository/wtsicgp/docker-cgp-ngs-qc?tab=builds)
 
 LICENCE
 =======
@@ -23,9 +22,9 @@ Copyright (c) 2016 Genome Research Ltd.
 
 Author: Cancer Genome Project <cgpit@sanger.ac.uk>
 
-This file is part of dockstore-cgpmap.
+This file is part of docker-cgpNgsQC.
 
-dockstore-cgpmap is free software: you can redistribute it and/or modify it under
+docker-cgpNgsQC is free software: you can redistribute it and/or modify it under
 the terms of the GNU Affero General Public License as published by the Free
 Software Foundation; either version 3 of the License, or (at your option) any
 later version.
