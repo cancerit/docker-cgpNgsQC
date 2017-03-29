@@ -24,7 +24,7 @@ cd $TMPDIR/downloads
 rm -rf distro.zip $TMPDIR/downloads/distro /tmp/hts_cache
 
 # cgpNgsQC
-curl -sSL -o distro.zip --retry 10 https://github.com/cancerit/cgpNgsQc/archive/v1.4.1.zip
+curl -sSL -o distro.zip --retry 10 https://github.com/cancerit/cgpNgsQc/archive/v1.4.2.zip
 mkdir $TMPDIR/downloads/distro
 bsdtar -C $TMPDIR/downloads/distro --strip-components 1 -xf distro.zip
 cd $TMPDIR/downloads/distro
