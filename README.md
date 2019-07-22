@@ -1,3 +1,9 @@
+# **NOTE**: Inactive project
+
+There will be no further development of this repo. Information of cgpNgsQC docker can be found in [its own repository](https://github.com/cancerit/cgpNgsQc).
+
+The latest version (*0.0.3*) container as defined in this repository can be pulled from Quay.IO with `docker pull quay.io/wtsicgp/docker-cgp-ngs-qc:latest`.
+
 docker-cgpNgsQC
 ======
 `docker-cgpNgsQC` provides cgpNgsQC in a docker image.
