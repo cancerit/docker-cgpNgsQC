@@ -1,6 +1,16 @@
 # **NOTE**: Inactive project
 
-There will be no further development of this repo. Information of cgpNgsQC docker can be found in [its own repository](https://github.com/cancerit/cgpNgsQc).
+Because:
+
+* [this line](https://github.com/cancerit/alleleCount/blob/269655084ef03bb7ec7f8557d120700ec3f24447/setup.sh#L26) in **alleleCount**, one of the dependies of this project, is pointing to a `mater` branch, and
+
+* the `master` branch of **Bio-HTS** has changed a lot, and `INSTALL.pl` does not work for the installation method in alleleCount V3.2.2 anymore,
+
+thus we can not build a tagged build of this repo on Quay.IO anymore, and we had no tagged build on Quay.IO before the `master` branch of **Bio-HTS** changed, except `latest` and `master`.
+
+In order to stablise the version of `latest` tag on Quay.IO (as the main purpose of this repo is to provide stable code for [PPCG](https://panprostate.org/), we decided there be no further development of this repo.
+
+Information of cgpNgsQC docker can be found in [its own repository](https://github.com/cancerit/cgpNgsQc).
 
 The latest version (*0.0.3*) container as defined in this repository can be pulled from Quay.IO with `docker pull quay.io/wtsicgp/docker-cgp-ngs-qc:latest`.
 
